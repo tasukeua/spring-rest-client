@@ -16,8 +16,8 @@ public class App {
         System.out.println(allEmps);
         Employee employee = communication.getEmp(1);
         System.out.println(employee);
-//        Employee emp = new Employee("Some", "Employee", "Software", 1000);
-//        communication.saveEmp(emp);
+        Employee emp = new Employee("Some", "Employee", "Software", 1000);
+        communication.saveEmp(emp);
         communication.deleteEmp(7);
     }
 }
